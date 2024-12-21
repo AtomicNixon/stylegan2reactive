@@ -8,8 +8,9 @@ import matplotlib.pyplot as plt
 from moviepy.editor import ImageSequenceClip
 
 audio_file = 'beat.wav'
-# network = 'ffhq.pkl'
-network = 'testn1.pkl'
+# network = 'gdrive:networks/stylegan2-ffhq-config-f.pkl'
+network = 'ffhq.pkl'
+# network = 'testn1.pkl'
 
 def main():
     y, sr = librosa.load(audio_file)
